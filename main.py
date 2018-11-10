@@ -3,7 +3,7 @@ from flask import Flask, request
 from flask_cors import CORS
 
 from firebase import firebase
-from utils import get_diffs, diff_to_error
+from algorithms.angles import get_diffs, diff_to_error
 
 DEBUG = True
 app = Flask(__name__)
